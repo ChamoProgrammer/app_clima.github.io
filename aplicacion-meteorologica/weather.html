@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicacion meteorologica</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="container top">
+            <h1>aplicacion meteorologica</h1>
+            <form action="" onsubmit="return false">
+                <input type="text" class="search" placeholder="buscar su ciudad por nombre 🏙">
+                <button type="submit" class="btn">enviar</button>
+                <p class="error"></p>
+            </form>
+            <section>
+                <div class="container">
+                    <div class="icon">
+                        <img src="" alt="" class="weather-icon">
+                    </div>
+                    <div class="location">
+                        <div class="city">nueva york, USA</div>
+                        <div class="date">jueves, nov 18 2021</div>
+                    </div>
+                    <div class="current">
+                        <div class="temp">Temp: 25 <span>°C</span></div>
+                        <div class="weather">clima: soleado</div>
+                        <div class="temp-range">Temp distancia: 10°C / 15°C</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+    
+</body>
+</html>
